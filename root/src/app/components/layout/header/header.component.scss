@@ -1,0 +1,20 @@
+:host-context([color-schema="light"]) {
+    background: red;
+}
+
+:host-context([color-schema="dark"]) {
+    background: #333333;
+    color: #ffffff;
+}
+
+:host {
+  display: flex;
+  color: #ffffff;
+}
+
+//:host-context(.light) {
+//  background: red;
+//}
+//:host-context(.dark) {
+//  background: blue;
+//}

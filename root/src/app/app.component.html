@@ -1,1 +1,10 @@
-<router-outlet></router-outlet>
+<app-header></app-header>
+<app-breadcrumbs></app-breadcrumbs>
+<app-content>
+  <router-outlet></router-outlet>
+</app-content>
+<app-footer></app-footer>
+<mat-menu #appMenu="matMenu">
+  <button mat-menu-item>Settings</button>
+  <button mat-menu-item>Help</button>
+</mat-menu>
